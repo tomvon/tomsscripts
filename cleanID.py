@@ -1,4 +1,5 @@
-#This script will remove "nasty" characters from a string. Useful for sanitizing file ids.
+"""This script will remove "nasty" characters from a string. 
+Useful for sanitizing file ids."""
 
 def clean(anyid):
 	

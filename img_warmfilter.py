@@ -1,4 +1,9 @@
-"""This script will go through a directory and find all files with the extension .jpg. For each file it will resize it t0 320 wide (keeping aspect ratio) (you change mywidth to whatever size you want), warm the color of the images (try and see!) and enhance the sharpness, contrast and color. Great for processsing family photos!"""
+"""This script will go through a directory and find all files 
+with the extension .jpg. For each file it will resize it to 
+320 wide (keeping aspect ratio) (you change mywidth to whatever 
+size you want), warm the color of the images (try and see!) and 
+enhance the sharpness, contrast and color. Great for processsing 
+family photos!"""
 
 import PIL
 from PIL import ImageEnhance

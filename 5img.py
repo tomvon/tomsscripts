@@ -1,6 +1,13 @@
-"""This script is for use with Zope2. Place it in your "extensions" folder in your Zope instance and create an "External Method" in Zope. Change the "mydir" dir variable to be the path to the directory you wish to store your images. 
+"""This script is for use with Zope2. Place it in your "extensions" 
+folder in your Zope instance and create an "External Method" in Zope. 
+Change the "mydir" dir variable to be thepath to the directory you 
+wish to store your images. 
 
-This script will take a 4:3 proprtional image file, keywords, caption and source submitted from a form, resize the image into 5 sizes, 640 x 480, 460 x 345, 300 x 255, 160 x 120 and 80 x 60 and named with descriptive extensions (-640.jpg). These sizes have been chosen to work with most web page layouts based on standard ad sizes.
+This script will take a 4:3 proprtional image file, keywords, caption 
+and source submitted from a form, resize the image into 5 sizes, 
+640 x 480, 460 x 345, 300 x 255, 160 x 120 and 80x 60 and named 
+with descriptive extensions (-640.jpg). These sizes have been 
+chosen to work with most web page layouts based on standard ad sizes.
 
 Images are renamed with a unique id based on the time of submission."""
 
