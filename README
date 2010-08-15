@@ -23,3 +23,10 @@ This script will remove "nasty" characters from a string. Useful for sanitizing 
 getEmails.py
 
 This script retrieves email from a mailserver and looks for image atttachments. If any are found it uses PIL (requires PIL obviously) to resize them into 3 sizes. It returns a list of emails with subject, images and the body of the email (text). I used this script to be able blog by email to custom Zope2 blog app. The PIX-FLIX line is in there because fscking Verizon would automatically add it any emails sent from my phone and there was no way to remove it.
+
+---------------
+
+img_resizer.py
+
+Resizes an image and keeps aspect ratio. Set mywidth to the desired with in pixels.
+
