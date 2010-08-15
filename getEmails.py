@@ -44,7 +44,7 @@ def getEmail():
 					#name = now.strftime('%y%j%H%m%s') + str(rand) + '.jpg'
 					#iid = string.replace(name,'.jpg','') + '_' + str(msgn)
 					#iid = iid[0:25]
-					path = os.path.join('/home2/tomvon/webapps/static/images/', iid)
+					path = os.path.join('/path/to/your/static/images/', iid)
 					f=open(path,"wb")
 					f.write(data.get_payload(decode=1))
 					f.close()
