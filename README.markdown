@@ -1,6 +1,7 @@
 
 A few useful python scripts I wrote for various reasons. Enjoy!
-Tom Von Lahndorff
+
+Tom Von Lahndorff http://www.tomvl.com http://www.modscape.com
 
 ***
 
