@@ -1,10 +1,10 @@
 
-tomscripts contains random useful python scripts I wrote for various reasons. Enjoy!
-- Tom Von Lahndorff
+A few useful python scripts I wrote for various reasons. Enjoy!
+Tom Von Lahndorff
 
----------------
+***
 
-5img.py
+###5img.py###
 
 This script is for use with Zope2. Place it in your "extensions" folder in your Zope instance and create an "External Method" in Zope. Change the "mydir" dir variable to be the path to the directory you wish to store your images. 
 
@@ -12,27 +12,27 @@ This script will take a 4:3 proprtional image file, keywords, caption and source
 
 Images are renamed with a unique id based on the time of submission.
 
----------------
+***
 
-cleanID.py
+###cleanID.py###
 
 This script will remove "nasty" characters from a string. Useful for sanitizing file ids.
 
----------------
+***
 
-getEmails.py
+###getEmails.py###
 
 This script retrieves email from a mailserver and looks for image atttachments. If any are found it uses PIL (requires PIL obviously) to resize them into 3 sizes. It returns a list of emails with subject, images and the body of the email (text). I used this script to be able blog by email to custom Zope2 blog app. The PIX-FLIX line is in there because fscking Verizon would automatically add it any emails sent from my phone and there was no way to remove it.
 
----------------
+***
 
-img_resizer.py
+###img_resizer.py###
 
 Resizes an image and keeps aspect ratio. Set mywidth to the desired with in pixels.
 
----------------
+***
 
-img_warmfilter.py
+###img_warmfilter.py###
 
 This script will go through a directory and find all files with the extension .jpg. For each file it will resize it t0 320 wide (keeping aspect ratio) (you change mywidth to whatever size you want), warm the color of the images (try and see!) and enhance the sharpness, contrast and color. Great for processsing family photos!
 
